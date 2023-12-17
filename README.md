@@ -26,9 +26,3 @@ The Arduino code (`digital_clock.ino`) contains the logic for displaying the tim
 - The `setup` function initializes the pin modes and sets up the timer.
 - The `loop` function continuously displays the time on the 7-segment display, updating every second.
 - The buzzer is enabled under specific conditions, and the clock resets at midnight.
-
-## Author
-- [Your Name]
-
-Feel free to contribute, report issues, or suggest improvements!
-
