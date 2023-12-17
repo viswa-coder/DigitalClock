@@ -4,8 +4,7 @@ This project implements a digital clock using an Arduino Uno R3 and a 7-segment 
 
 ## Components Used
 - Arduino Uno R3
-- 7-segment display
-- Buzzer
+- MultiFunction Shield Consists of 7-Segment Display and Buzzer
 
 ## Pin Configuration
 - `DISP_LATCH` (Pin 4) - The pin controlling the display latch.
@@ -14,11 +13,11 @@ This project implements a digital clock using an Arduino Uno R3 and a 7-segment 
 - `BUZZER` (Pin 3) - The pin to enable the speaker.
 
 ## Code Overview
-The Arduino code (`digital_clock.ino`) contains the logic for displaying the time on the 7-segment display. The clock uses a 24-hour format and includes a buzzer for certain conditions.
+The Arduino code (`clock.ino`) contains the logic for displaying the time on the 7-segment display. The clock uses a 24-hour format and includes a buzzer for certain conditions.
 
 ## Usage
 1. Connect the Arduino Uno R3 to the 7-segment display and buzzer according to the specified pin configuration.
-2. Upload the `digital_clock.ino` code to the Arduino board.
+2. Upload the `clock.ino` code to the Arduino board.
 3. Power on the system.
 
 ## Code Explanation
